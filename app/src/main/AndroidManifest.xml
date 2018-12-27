@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.widget">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".guhong.MainActivity"></activity>
+        <activity android:name=".guhong.BounceBallActivity"></activity>
+        <activity android:name=".guhong.MeiRippleActivity"></activity>
+        <activity android:name=".guhong.MeiLinePathActivity"></activity>
+        <activity android:name=".meis.MeiScrollParallaxActivity"></activity>
+        <activity
+            android:name=".meis.MainActivity"
+            android:windowContentTransitions="true"></activity>
+        <activity android:name=".meis.MeiHeartActivity"></activity>
+        <activity android:name=".meis.MeiRadiusActivity"></activity>
+        <activity
+            android:name=".meis.MeiPhotoDragActivity"
+            android:theme="@style/translucent"></activity>
+        <activity
+            android:name=".meis.MeiVideoDragActivity"
+            android:theme="@style/translucent"
+            android:windowContentTransitions="true"></activity>
+        <activity android:name=".meis.MeiVideoDragListActivity"></activity>
+        <activity android:name=".meis.MeiMoBikeActivity"></activity>
+        <activity android:name=".meis.MeiRoseActivity"></activity>
+        <activity android:name=".meis.MeiFireflyActivity"></activity>
+        <activity android:name=".meis.MeiPraiseActivity"></activity>
+        <activity android:name=".meis.MeiEvaporateActivity"></activity>
+        <activity android:name=".meis.MeiScrollViewActivity"></activity>
+    </application>
+
+</manifest>
